@@ -1,0 +1,124 @@
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    width: 50%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+h4{
+    font-size: 1rem;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+input{
+    width: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+input:focus {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #555;
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #555;
+    transition: background-color 0.2s ease-in-out;
+}
+
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: #555;
+}
+
+#sign-up{
+    text-decoration: none;
+    font-size: larger;
+    color: #555;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        min-width: 300px;
+    }
+    .container {
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    
+    .img-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    h4{
+        font-size: 0.8rem;
+    }
+}
+
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Details</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Trirong:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="../scripts/owlCarrosel.js"></script>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/menu.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/productsDetails.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="content-logo center">
+        <a href="../home.html" id="logo-link-h-page">
+          <div class="logo center">
+            <img src="../../images/logo.png" alt="Logo" />
+            <p>My Store</p>
+          </div>
+        </a>
+        <div class="features">
+          <a href="../index.html"
+            ><img src="../images/user.png" alt="Cart"
+          /></a>
+          <div class="loginItems">
+            <p id="username"></p>
+            <a href="../index.html">Logout</a>
+          </div>
+          <a href="../cart.html"><img src="../images/cart.png" alt="Cart" /></a>
+        </div>
+      </div>
+      <nav id="menu">
+        <input type="checkbox" id="device-menu" class="device-menu" />
+        <label for="device-menu" class="menu-hamburger">
+          <p></p>
+          <p></p>
+          <p></p>
+        </label>
+        <ul class="center">
+          <li><a href="../home.html">Home</a></li>
+          <li><a href="../about.html">About Us</a></li>
+          <li><a href="../toys.html">Toys</a></li>
+          <li><a href="../clothing.html">Clothing</a></li>
+          <li><a href="../furniture.html">Furniture</a></li>
+          <li><a href="../automotive.html">Automotive</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="product-container">
+      <section class="product">
+        <h2 class="title">AUTOMET Womens Casual Plaid Shacket</h2>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img
+              class="main-img"
+              src="../images/Clothes/women-clothes1-min.jpg"
+              alt="clothes1"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="../images/Clothes/women-clothes2-min.jpg"
+              alt="clothes2"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="../images/Clothes/women-clothes3-min.jpg"
+              alt="clothes3"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="../images/Clothes/women-clothes5-min.jpg"
+              alt="clothes4"
+            />
+          </div>
+        </div>
+
+        <h3>Description:</h3>
+
+        <p>
+          AUTOMET Womens Casual Plaid Shacket Wool Blend Button Down Long Sleeve
+          Shirt Fall Jacket Shackets <br />
+          Fabric: 55% Nylon/45% Spandex <br />
+          Nylon lining <br />
+          Button closure <br />
+          Hand Wash Only <br />
+          Material: Made of high quality 55% Nylon/ 45% Spandex fabric,
+          skin-friendly, soft and comfortable to wear, will keep your warm and
+          fashion style in fall,spring and cold winter. <br />
+          Feature:It features soft fuzzy fabric, front button closure , and
+          midweight feel for keeping warm all day. It'll be the prefect addition
+          to your wardrobe.Two buttoned chest pockets / long sleeves with button
+          cuffs / plaid pattern / loose fit shacket / collared.This shacket is a
+          must have in your closet! <br />
+          Match: You can pair this shirts with variety of tank tops, bodysuit ,
+          jeans, denim shorts, jeggings, sneakers or boots to complete casual
+          look that's easy to love all season long.
+        </p>
+
+        <ul>
+          <li>Color: Apricot</li>
+          <li>Material: 55% Nylon/45% Spandex</li>
+          <li>Size: Small</li>
+        </ul>
+
+        <p>Price: $<span class="det-price"> 29.70</span></p>
+        <button onclick="addItemDetailsCart(event)" class="prod-btn">
+          Add to cart
+        </button>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="center">
+      <section>
+        <h5>Our store:</h5>
+        <div class="storeAddress">
+          <p>265 Yorkland Blvd #400, North York, ON M2J 1S5</p>
+          <p>Tel: 123-456-7890</p>
+        </div>
+      </section>
+      <section>
+        <h5>Business hour:</h5>
+        <div class="storeAddress">
+          <p>Monday to Sunday</p>
+          <p>9:00 am to 11:00 pm</p>
+        </div>
+      </section>
+      <section>
+        <h5>Shop:</h5>
+        <ul>
+          <li><a href="../toys.html">Toys</a></li>
+          <li><a href="../clothing.html">Clothing</a></li>
+          <li><a href="../furniture.html">Furniture</a></li>
+          <li><a href="../automotive.html">Automotive</a></li>
+        </ul>
+      </section>
+      <section>
+        <h5>Info:</h5>
+        <ul>
+          <li><a href="../home.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </section>
+      <section>
+        <div class="media">
+          <h5>Become our besties:</h5>
+          <div class="center">
+            <a href="https://www.facebook.com/"
+              ><img src="../images/facebook.png" alt="Facebook"
+            /></a>
+            <a href="https://www.instagram.com/"
+              ><img src="../images/instagram.png" alt="Instagram"
+            /></a>
+            <a href="https://www.youtube.com/"
+              ><img src="../images/youtube.png" alt="YouTube"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="../scripts/products.js"></script>
+    <script src="../scripts/utils.js"></script>
+  </body>
+</html>

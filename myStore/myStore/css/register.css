@@ -1,0 +1,110 @@
+/* Set default font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Set logo style */
+.logo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logo p {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Set registration form style */
+.registerClass {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #888;
+}
+
+/* Set registration form heading style */
+.registerHead {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Set form input style */
+.innerForm input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+/* Set form button style */
+.registerBtn {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    box-shadow: 0px -1px 2px 1px rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.registerBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Set message text style */
+.registerClass p {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #555;
+}
+
+input.red:focus {
+    outline: 2px solid red;
+}
+
+/* Set login page link style */
+.loginPage {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.loginPage a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.loginPage a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .registerClass {
+        max-width: 90%;
+    }
+}
