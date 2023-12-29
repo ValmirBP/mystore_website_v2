@@ -60,6 +60,7 @@ git clone git@github.com:ValmirBP/mystore_website_v2.git
 
 # website slides
 
+![ezgif com-crop](https://github.com/ValmirBP/mystore_website_v2/assets/48802923/c7459503-3330-4f89-8679-b3f8698512b4)
 
 
 
